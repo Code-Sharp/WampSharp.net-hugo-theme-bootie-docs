@@ -32,5 +32,22 @@
 <script src="{{ $baseUrl }}/js/ie10-viewport-bug-workaround.js"></script>
 <script src="{{ $baseUrl }}/js/bootie-docs.js"></script>
 
+<script src="https://cdn.jsdelivr.net/npm/docsearch.js@2.6.3/dist/cdn/docsearch.min.js"></script>
+<script>
+  docsearch({
+    // Your apiKey and indexName will be given to you once
+    // we create your config
+    apiKey: '0327efc17cad5f4c0585144de916a164',
+    indexName: 'wampsharp',
+    //appId: '<APP_ID>', // Should be only included if you are running DocSearch on your own.
+    // Replace inputSelector with a CSS selector
+    // matching your search input
+    inputSelector: '#as_q',
+    // Set debug to true to inspect the dropdown
+    debug: false,
+  });
+</script>
+
+
 </body>
 </html>

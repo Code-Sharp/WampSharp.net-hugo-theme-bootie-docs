@@ -14,6 +14,8 @@
 		<link rel="stylesheet" href="{{ $baseUrl }}/css/theme.css">
 		<link rel="stylesheet" href="{{ $baseUrl }}/css/bootie-docs.css">
 		<link rel="stylesheet" href="{{ $baseUrl }}/css/site.css">
+		<link rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/docsearch.js@v2.6.3/dist/cdn/docsearch.min.css" />
 	</head>
 
 <body role="document">
@@ -61,6 +63,12 @@
 					</div>
 				</form>
 				{{ end }}
+				<form class="navbar-form navbar-left" role="search">
+					<div class="input-group doc-search-form">
+						<input type="text" id="as_q" class="search-query doc-search-input-text" placeholder="Search Site">
+					</div>
+				</form>
+
 			</div><!--/.nav-collapse -->
 		</div>
 	</nav>
